@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/vsteg.dir/main.c.o CMakeFiles/vsteg.dir/bitmap.c.o CMakeFiles/vsteg.dir/util.c.o CMakeFiles/vsteg.dir/stego.c.o  -o vsteg 

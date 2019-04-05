@@ -36,6 +36,11 @@ int main(int argc, char **argv)
         exit(1);
     }
 
+//Compressed video into decompressed video
+
+//*******************
+
+    //Encode file using threads
     if(mode)
     {
         encode(argv[2], argv[3], argv[4]);

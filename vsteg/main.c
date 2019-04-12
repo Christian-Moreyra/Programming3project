@@ -36,6 +36,9 @@ int main(int argc, char **argv)
         exit(1);
     }
 //Create folder to hold images
+//https://www.geeksforgeeks.org/tmpfile-function-c/
+//https://www.tutorialspoint.com/c_standard_library/c_function_tmpfile.htm
+//https://stackoverflow.com/questions/18892076/how-to-create-a-temporary-text-file-in-c
 
 //************************************************************************************************
 //Compressed video into decompressed video

@@ -54,7 +54,7 @@ int main(int argc, char **argv)
     } 
     else
     {
-        //Insert one photo and first piece of text into a thread and have them execute squentially
+        //Insert one photo and first piece of text into a thread and have them execute squentially 
         decode(argv[2], argv[3]);
     }
 

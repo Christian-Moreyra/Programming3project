@@ -39,6 +39,7 @@ int main(int argc, char **argv)
 
 //************************************************************************************************
 //Compressed video into decompressed video
+    //https://www.bugcodemaster.com/article/extract-images-frame-frame-video-file-using-ffmpeg
 //Store into a folder of images to have them seperated
 //************************************************************************************************
 
@@ -57,6 +58,10 @@ int main(int argc, char **argv)
         //Insert one photo and first piece of text into a thread and have them execute squentially 
         decode(argv[2], argv[3]);
     }
+    
+    //Join back together the images into a video
+    //https://www.bugcodemaster.com/article/how-extract-and-join-video-files-using-ffmpeg
+    //Join back together the text files into one large text file
 
     //Join threads together
     

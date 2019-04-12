@@ -58,6 +58,8 @@ int main(int argc, char **argv)
         decode(argv[2], argv[3]);
     }
 
+    //Join threads together
+    
     return EXIT_SUCCESS;
 }
 

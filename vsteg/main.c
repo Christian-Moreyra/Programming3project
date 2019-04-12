@@ -35,18 +35,26 @@ int main(int argc, char **argv)
         print_help(argv[0]);
         exit(1);
     }
+//Create folder to hold images
 
+//************************************************************************************************
 //Compressed video into decompressed video
+//Store into a folder of images to have them seperated
+//************************************************************************************************
 
-//*******************
+//Break apart text file into individual parts adn prepare them for threads
+    
+//************************************************************************************************
 
     //Encode file using threads
     if(mode)
     {
+        //Insert one photo and first piece of text into a thread and have them execute squentially
         encode(argv[2], argv[3], argv[4]);
     } 
     else
     {
+        //Insert one photo and first piece of text into a thread and have them execute squentially
         decode(argv[2], argv[3]);
     }
 

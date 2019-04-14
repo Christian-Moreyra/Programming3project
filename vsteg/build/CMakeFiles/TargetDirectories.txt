@@ -1,3 +1,3 @@
-/home/user/code/finalProject/isteg-master/build/CMakeFiles/rebuild_cache.dir
-/home/user/code/finalProject/isteg-master/build/CMakeFiles/vsteg.dir
-/home/user/code/finalProject/isteg-master/build/CMakeFiles/edit_cache.dir
+/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles/rebuild_cache.dir
+/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles/vsteg.dir
+/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles/edit_cache.dir

@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/user/code/finalProject/isteg-master/bitmap.c
+/home/user/code/finalProject/Programming3project/vsteg/bitmap.c
 stdlib.h
 -
 bitmap.h
-/home/user/code/finalProject/isteg-master/bitmap.h
+/home/user/code/finalProject/Programming3project/vsteg/bitmap.h
 util.h
-/home/user/code/finalProject/isteg-master/util.h
+/home/user/code/finalProject/Programming3project/vsteg/util.h
 
-/home/user/code/finalProject/isteg-master/bitmap.h
+/home/user/code/finalProject/Programming3project/vsteg/bitmap.h
 stdint.h
 -
 stdbool.h
@@ -22,7 +22,7 @@ stdbool.h
 stdio.h
 -
 
-/home/user/code/finalProject/isteg-master/main.c
+/home/user/code/finalProject/Programming3project/vsteg/main.c
 stdio.h
 -
 stdlib.h
@@ -30,31 +30,31 @@ stdlib.h
 memory.h
 -
 bitmap.h
-/home/user/code/finalProject/isteg-master/bitmap.h
+/home/user/code/finalProject/Programming3project/vsteg/bitmap.h
 stego.h
-/home/user/code/finalProject/isteg-master/stego.h
+/home/user/code/finalProject/Programming3project/vsteg/stego.h
 
-/home/user/code/finalProject/isteg-master/stego.c
+/home/user/code/finalProject/Programming3project/vsteg/stego.c
 stego.h
-/home/user/code/finalProject/isteg-master/stego.h
+/home/user/code/finalProject/Programming3project/vsteg/stego.h
 bitmap.h
-/home/user/code/finalProject/isteg-master/bitmap.h
+/home/user/code/finalProject/Programming3project/vsteg/bitmap.h
 util.h
-/home/user/code/finalProject/isteg-master/util.h
+/home/user/code/finalProject/Programming3project/vsteg/util.h
 
-/home/user/code/finalProject/isteg-master/stego.h
+/home/user/code/finalProject/Programming3project/vsteg/stego.h
 stdbool.h
 -
 
-/home/user/code/finalProject/isteg-master/util.c
+/home/user/code/finalProject/Programming3project/vsteg/util.c
 stdlib.h
 -
 util.h
-/home/user/code/finalProject/isteg-master/util.h
+/home/user/code/finalProject/Programming3project/vsteg/util.h
 
-/home/user/code/finalProject/isteg-master/util.h
+/home/user/code/finalProject/Programming3project/vsteg/util.h
 stdio.h
 -
 bitmap.h
-/home/user/code/finalProject/isteg-master/bitmap.h
+/home/user/code/finalProject/Programming3project/vsteg/bitmap.h
 

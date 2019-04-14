@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/code/finalProject/isteg-master
+CMAKE_SOURCE_DIR = /home/user/code/finalProject/Programming3project/vsteg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/code/finalProject/isteg-master/build
+CMAKE_BINARY_DIR = /home/user/code/finalProject/Programming3project/vsteg/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/vsteg.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/vsteg.dir/flags.make
 
 CMakeFiles/vsteg.dir/main.c.o: CMakeFiles/vsteg.dir/flags.make
 CMakeFiles/vsteg.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/code/finalProject/isteg-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/vsteg.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vsteg.dir/main.c.o   -c /home/user/code/finalProject/isteg-master/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/vsteg.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vsteg.dir/main.c.o   -c /home/user/code/finalProject/Programming3project/vsteg/main.c
 
 CMakeFiles/vsteg.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vsteg.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/code/finalProject/isteg-master/main.c > CMakeFiles/vsteg.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/code/finalProject/Programming3project/vsteg/main.c > CMakeFiles/vsteg.dir/main.c.i
 
 CMakeFiles/vsteg.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vsteg.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/code/finalProject/isteg-master/main.c -o CMakeFiles/vsteg.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/code/finalProject/Programming3project/vsteg/main.c -o CMakeFiles/vsteg.dir/main.c.s
 
 CMakeFiles/vsteg.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/vsteg.dir/main.c.o.provides.build: CMakeFiles/vsteg.dir/main.c.o
 
 CMakeFiles/vsteg.dir/bitmap.c.o: CMakeFiles/vsteg.dir/flags.make
 CMakeFiles/vsteg.dir/bitmap.c.o: ../bitmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/code/finalProject/isteg-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/vsteg.dir/bitmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vsteg.dir/bitmap.c.o   -c /home/user/code/finalProject/isteg-master/bitmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/vsteg.dir/bitmap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vsteg.dir/bitmap.c.o   -c /home/user/code/finalProject/Programming3project/vsteg/bitmap.c
 
 CMakeFiles/vsteg.dir/bitmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vsteg.dir/bitmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/code/finalProject/isteg-master/bitmap.c > CMakeFiles/vsteg.dir/bitmap.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/code/finalProject/Programming3project/vsteg/bitmap.c > CMakeFiles/vsteg.dir/bitmap.c.i
 
 CMakeFiles/vsteg.dir/bitmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vsteg.dir/bitmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/code/finalProject/isteg-master/bitmap.c -o CMakeFiles/vsteg.dir/bitmap.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/code/finalProject/Programming3project/vsteg/bitmap.c -o CMakeFiles/vsteg.dir/bitmap.c.s
 
 CMakeFiles/vsteg.dir/bitmap.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/vsteg.dir/bitmap.c.o.provides.build: CMakeFiles/vsteg.dir/bitmap.c.o
 
 CMakeFiles/vsteg.dir/util.c.o: CMakeFiles/vsteg.dir/flags.make
 CMakeFiles/vsteg.dir/util.c.o: ../util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/code/finalProject/isteg-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/vsteg.dir/util.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vsteg.dir/util.c.o   -c /home/user/code/finalProject/isteg-master/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/vsteg.dir/util.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vsteg.dir/util.c.o   -c /home/user/code/finalProject/Programming3project/vsteg/util.c
 
 CMakeFiles/vsteg.dir/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vsteg.dir/util.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/code/finalProject/isteg-master/util.c > CMakeFiles/vsteg.dir/util.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/code/finalProject/Programming3project/vsteg/util.c > CMakeFiles/vsteg.dir/util.c.i
 
 CMakeFiles/vsteg.dir/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vsteg.dir/util.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/code/finalProject/isteg-master/util.c -o CMakeFiles/vsteg.dir/util.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/code/finalProject/Programming3project/vsteg/util.c -o CMakeFiles/vsteg.dir/util.c.s
 
 CMakeFiles/vsteg.dir/util.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/vsteg.dir/util.c.o.provides.build: CMakeFiles/vsteg.dir/util.c.o
 
 CMakeFiles/vsteg.dir/stego.c.o: CMakeFiles/vsteg.dir/flags.make
 CMakeFiles/vsteg.dir/stego.c.o: ../stego.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/code/finalProject/isteg-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/vsteg.dir/stego.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vsteg.dir/stego.c.o   -c /home/user/code/finalProject/isteg-master/stego.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/vsteg.dir/stego.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vsteg.dir/stego.c.o   -c /home/user/code/finalProject/Programming3project/vsteg/stego.c
 
 CMakeFiles/vsteg.dir/stego.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vsteg.dir/stego.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/code/finalProject/isteg-master/stego.c > CMakeFiles/vsteg.dir/stego.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/code/finalProject/Programming3project/vsteg/stego.c > CMakeFiles/vsteg.dir/stego.c.i
 
 CMakeFiles/vsteg.dir/stego.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vsteg.dir/stego.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/code/finalProject/isteg-master/stego.c -o CMakeFiles/vsteg.dir/stego.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/code/finalProject/Programming3project/vsteg/stego.c -o CMakeFiles/vsteg.dir/stego.c.s
 
 CMakeFiles/vsteg.dir/stego.c.o.requires:
 
@@ -169,7 +169,7 @@ vsteg: CMakeFiles/vsteg.dir/util.c.o
 vsteg: CMakeFiles/vsteg.dir/stego.c.o
 vsteg: CMakeFiles/vsteg.dir/build.make
 vsteg: CMakeFiles/vsteg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/code/finalProject/isteg-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable vsteg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable vsteg"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vsteg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/vsteg.dir/clean:
 .PHONY : CMakeFiles/vsteg.dir/clean
 
 CMakeFiles/vsteg.dir/depend:
-	cd /home/user/code/finalProject/isteg-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/code/finalProject/isteg-master /home/user/code/finalProject/isteg-master /home/user/code/finalProject/isteg-master/build /home/user/code/finalProject/isteg-master/build /home/user/code/finalProject/isteg-master/build/CMakeFiles/vsteg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/code/finalProject/Programming3project/vsteg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/code/finalProject/Programming3project/vsteg /home/user/code/finalProject/Programming3project/vsteg /home/user/code/finalProject/Programming3project/vsteg/build /home/user/code/finalProject/Programming3project/vsteg/build /home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles/vsteg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/vsteg.dir/depend
 

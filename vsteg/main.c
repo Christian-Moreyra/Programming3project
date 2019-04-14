@@ -18,6 +18,8 @@ void print_help(char *path){
 
 int main(int argc, char **argv) 
 {
+    system("split -l 1000 --numeric-suffixes ../text_to_encode.txt subtext");
+
     if ( argc != 5 && argc != 4 ) 
     {
         print_help(argv[0]);
@@ -35,38 +37,39 @@ int main(int argc, char **argv)
         print_help(argv[0]);
         exit(1);
     }
-//Create folder to hold images
-//https://www.geeksforgeeks.org/tmpfile-function-c/
-//https://www.tutorialspoint.com/c_standard_library/c_function_tmpfile.htm
-//https://stackoverflow.com/questions/18892076/how-to-create-a-temporary-text-file-in-c
 
-//************************************************************************************************
-//Compressed video into decompressed video
-    //https://www.bugcodemaster.com/article/extract-images-frame-frame-video-file-using-ffmpeg
-//Store into a folder of images to have them seperated
-//************************************************************************************************
+    int numOfFrames = 7;
 
-//Break apart text file into individual parts adn prepare them for threads
     
-//************************************************************************************************
+
+    //split -l 1000 --numeric-suffixes text_to_encode.txt subtext
+    //
+    //find subtext* -type f | wc -l
+
+    //Can be implemented in version 2 to make it more efficient
+    //ffmpeg -i video.m4v -t 00:00:10 -c copy workingVideo.mp4 -ss 00:00:10 -codec copy leftOver.mp4
+
+    //ffmpeg -i workingVideo.m4v -vf fps=30 img%04d.bmp -hide_banner
 
     //Encode file using threads
     if(mode)
     {
         //Insert one photo and first piece of text into a thread and have them execute squentially
         encode(argv[2], argv[3], argv[4]);
+	//ffmpeg -r 30 -f image2 -s 640x359 -i img%04d.bmp -vcodec libx264 -crf 25  -pix_fmt yuv420p encoded_video.mp4
     } 
     else
     {
+	//Can be implemented in version 2 to have it check every 10 to see if it is EOF and break
         //Insert one photo and first piece of text into a thread and have them execute squentially 
         decode(argv[2], argv[3]);
+	//ffmpeg -r 30 -f image2 -s 640x359 -i img%04d.bmp -vcodec libx264 -crf 25  -pix_fmt yuv420p decoded_video.mp4
     }
-    
-    //Join back together the images into a video
-    //https://www.bugcodemaster.com/article/how-extract-and-join-video-files-using-ffmpeg
-    //Join back together the text files into one large text file
 
-    //Join threads together
+    //ffmpeg -r 30 -f image2 -s 640x359 -i img%04d.bmp -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4
+
+    //Can be implemented in version 2 to make it more efficient
+    //ffmpeg -i “concat:test.mp4|video2.avi” output_video.avi
     
     return EXIT_SUCCESS;
 }

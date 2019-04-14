@@ -18,7 +18,7 @@ void print_help(char *path){
 
 int main(int argc, char **argv) 
 {
-    system("split -l 1000 --numeric-suffixes ../text_to_encode.txt subtext");
+    //system("split -l 1000 --numeric-suffixes ../text_to_encode.txt subtext");
 
     if ( argc != 5 && argc != 4 ) 
     {

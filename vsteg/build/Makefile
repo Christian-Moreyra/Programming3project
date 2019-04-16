@@ -150,32 +150,32 @@ bitmap.c.s:
 	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/bitmap.c.s
 .PHONY : bitmap.c.s
 
-main.o: main.c.o
+isteg.o: isteg.c.o
 
-.PHONY : main.o
+.PHONY : isteg.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/main.c.o
-.PHONY : main.c.o
+isteg.c.o:
+	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/isteg.c.o
+.PHONY : isteg.c.o
 
-main.i: main.c.i
+isteg.i: isteg.c.i
 
-.PHONY : main.i
+.PHONY : isteg.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/main.c.i
-.PHONY : main.c.i
+isteg.c.i:
+	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/isteg.c.i
+.PHONY : isteg.c.i
 
-main.s: main.c.s
+isteg.s: isteg.c.s
 
-.PHONY : main.s
+.PHONY : isteg.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/main.c.s
-.PHONY : main.c.s
+isteg.c.s:
+	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/isteg.c.s
+.PHONY : isteg.c.s
 
 stego.o: stego.c.o
 
@@ -231,6 +231,33 @@ util.c.s:
 	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/util.c.s
 .PHONY : util.c.s
 
+vsteg.o: vsteg.c.o
+
+.PHONY : vsteg.o
+
+# target to build an object file
+vsteg.c.o:
+	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/vsteg.c.o
+.PHONY : vsteg.c.o
+
+vsteg.i: vsteg.c.i
+
+.PHONY : vsteg.i
+
+# target to preprocess a source file
+vsteg.c.i:
+	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/vsteg.c.i
+.PHONY : vsteg.c.i
+
+vsteg.s: vsteg.c.s
+
+.PHONY : vsteg.s
+
+# target to generate assembly for a file
+vsteg.c.s:
+	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/vsteg.c.s
+.PHONY : vsteg.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,15 +270,18 @@ help:
 	@echo "... bitmap.o"
 	@echo "... bitmap.i"
 	@echo "... bitmap.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... isteg.o"
+	@echo "... isteg.i"
+	@echo "... isteg.s"
 	@echo "... stego.o"
 	@echo "... stego.i"
 	@echo "... stego.s"
 	@echo "... util.o"
 	@echo "... util.i"
 	@echo "... util.s"
+	@echo "... vsteg.o"
+	@echo "... vsteg.i"
+	@echo "... vsteg.s"
 .PHONY : help
 
 

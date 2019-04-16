@@ -5,9 +5,9 @@ CMakeFiles/vsteg.dir/bitmap.c.o
  /home/user/code/finalProject/Programming3project/vsteg/bitmap.c
  /home/user/code/finalProject/Programming3project/vsteg/bitmap.h
  /home/user/code/finalProject/Programming3project/vsteg/util.h
-CMakeFiles/vsteg.dir/main.c.o
+CMakeFiles/vsteg.dir/isteg.c.o
  /home/user/code/finalProject/Programming3project/vsteg/bitmap.h
- /home/user/code/finalProject/Programming3project/vsteg/main.c
+ /home/user/code/finalProject/Programming3project/vsteg/isteg.c
  /home/user/code/finalProject/Programming3project/vsteg/stego.h
 CMakeFiles/vsteg.dir/stego.c.o
  /home/user/code/finalProject/Programming3project/vsteg/bitmap.h
@@ -18,3 +18,7 @@ CMakeFiles/vsteg.dir/util.c.o
  /home/user/code/finalProject/Programming3project/vsteg/bitmap.h
  /home/user/code/finalProject/Programming3project/vsteg/util.c
  /home/user/code/finalProject/Programming3project/vsteg/util.h
+CMakeFiles/vsteg.dir/vsteg.c.o
+ /home/user/code/finalProject/Programming3project/vsteg/bitmap.h
+ /home/user/code/finalProject/Programming3project/vsteg/stego.h
+ /home/user/code/finalProject/Programming3project/vsteg/vsteg.c

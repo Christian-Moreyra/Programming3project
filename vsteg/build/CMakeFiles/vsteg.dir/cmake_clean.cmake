@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/vsteg.dir/main.c.o"
+  "CMakeFiles/vsteg.dir/vsteg.c.o"
+  "CMakeFiles/vsteg.dir/isteg.c.o"
   "CMakeFiles/vsteg.dir/bitmap.c.o"
   "CMakeFiles/vsteg.dir/util.c.o"
   "CMakeFiles/vsteg.dir/stego.c.o"

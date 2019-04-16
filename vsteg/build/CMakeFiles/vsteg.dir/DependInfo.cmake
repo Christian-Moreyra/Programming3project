@@ -5,9 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/user/code/finalProject/Programming3project/vsteg/bitmap.c" "/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles/vsteg.dir/bitmap.c.o"
-  "/home/user/code/finalProject/Programming3project/vsteg/main.c" "/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles/vsteg.dir/main.c.o"
+  "/home/user/code/finalProject/Programming3project/vsteg/isteg.c" "/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles/vsteg.dir/isteg.c.o"
   "/home/user/code/finalProject/Programming3project/vsteg/stego.c" "/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles/vsteg.dir/stego.c.o"
   "/home/user/code/finalProject/Programming3project/vsteg/util.c" "/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles/vsteg.dir/util.c.o"
+  "/home/user/code/finalProject/Programming3project/vsteg/vsteg.c" "/home/user/code/finalProject/Programming3project/vsteg/build/CMakeFiles/vsteg.dir/vsteg.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

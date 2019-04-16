@@ -4,7 +4,6 @@
 #include "bitmap.h"
 #include "stego.h"
 
-
 void print_help(char *path){
     printf("*** Image Steganography by LSB substitution ***\n\n"
            "Usage:  \n"
@@ -38,31 +37,30 @@ int main(int argc, char **argv)
         exit(1);
     }
 
-    int numOfFrames = 7;
-
+    //Number of frames needed to have code run
+    int numFrames = 0;
+    system("split -l 1000 --numeric-suffixes ../text_to_encode.txt subtext");
+    //system("split -l 1000 --numeric-suffixes argv[] subtext");
     
-
-    //split -l 1000 --numeric-suffixes text_to_encode.txt subtext
-    //
-    //find subtext* -type f | wc -l
+    numFrames = system("find subtext* -type f | wc -l");
 
     //Can be implemented in version 2 to make it more efficient
     //ffmpeg -i video.m4v -t 00:00:10 -c copy workingVideo.mp4 -ss 00:00:10 -codec copy leftOver.mp4
-
-    //ffmpeg -i workingVideo.m4v -vf fps=30 img%04d.bmp -hide_banner
+    
+    system("ffmpeg -i ../part1.m4v -vf fps=30 img%05d.bmp -hide_banner");
 
     //Encode file using threads
     if(mode)
     {
         //Insert one photo and first piece of text into a thread and have them execute squentially
-        encode(argv[2], argv[3], argv[4]);
+        encode("subtext00", "img00001.bmp", "eimg00001.bmp");
 	//ffmpeg -r 30 -f image2 -s 640x359 -i img%04d.bmp -vcodec libx264 -crf 25  -pix_fmt yuv420p encoded_video.mp4
     } 
     else
     {
 	//Can be implemented in version 2 to have it check every 10 to see if it is EOF and break
         //Insert one photo and first piece of text into a thread and have them execute squentially 
-        decode(argv[2], argv[3]);
+        decode("eimg00001.bmp","decoded_text.txt");
 	//ffmpeg -r 30 -f image2 -s 640x359 -i img%04d.bmp -vcodec libx264 -crf 25  -pix_fmt yuv420p decoded_video.mp4
     }
 
@@ -70,6 +68,10 @@ int main(int argc, char **argv)
 
     //Can be implemented in version 2 to make it more efficient
     //ffmpeg -i “concat:test.mp4|video2.avi” output_video.avi
+
+    system("rm img*");
+    system("rm subtext*");
+
     
     return EXIT_SUCCESS;
 }

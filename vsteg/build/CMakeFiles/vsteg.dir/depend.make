@@ -5,10 +5,6 @@ CMakeFiles/vsteg.dir/bitmap.c.o: ../bitmap.c
 CMakeFiles/vsteg.dir/bitmap.c.o: ../bitmap.h
 CMakeFiles/vsteg.dir/bitmap.c.o: ../util.h
 
-CMakeFiles/vsteg.dir/isteg.c.o: ../bitmap.h
-CMakeFiles/vsteg.dir/isteg.c.o: ../isteg.c
-CMakeFiles/vsteg.dir/isteg.c.o: ../stego.h
-
 CMakeFiles/vsteg.dir/stego.c.o: ../bitmap.h
 CMakeFiles/vsteg.dir/stego.c.o: ../stego.c
 CMakeFiles/vsteg.dir/stego.c.o: ../stego.h

@@ -150,33 +150,6 @@ bitmap.c.s:
 	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/bitmap.c.s
 .PHONY : bitmap.c.s
 
-isteg.o: isteg.c.o
-
-.PHONY : isteg.o
-
-# target to build an object file
-isteg.c.o:
-	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/isteg.c.o
-.PHONY : isteg.c.o
-
-isteg.i: isteg.c.i
-
-.PHONY : isteg.i
-
-# target to preprocess a source file
-isteg.c.i:
-	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/isteg.c.i
-.PHONY : isteg.c.i
-
-isteg.s: isteg.c.s
-
-.PHONY : isteg.s
-
-# target to generate assembly for a file
-isteg.c.s:
-	$(MAKE) -f CMakeFiles/vsteg.dir/build.make CMakeFiles/vsteg.dir/isteg.c.s
-.PHONY : isteg.c.s
-
 stego.o: stego.c.o
 
 .PHONY : stego.o
@@ -270,9 +243,6 @@ help:
 	@echo "... bitmap.o"
 	@echo "... bitmap.i"
 	@echo "... bitmap.s"
-	@echo "... isteg.o"
-	@echo "... isteg.i"
-	@echo "... isteg.s"
 	@echo "... stego.o"
 	@echo "... stego.i"
 	@echo "... stego.s"

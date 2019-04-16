@@ -22,18 +22,6 @@ stdbool.h
 stdio.h
 -
 
-/home/user/code/finalProject/Programming3project/vsteg/isteg.c
-stdio.h
--
-stdlib.h
--
-memory.h
--
-bitmap.h
-/home/user/code/finalProject/Programming3project/vsteg/bitmap.h
-stego.h
-/home/user/code/finalProject/Programming3project/vsteg/stego.h
-
 /home/user/code/finalProject/Programming3project/vsteg/stego.c
 stego.h
 /home/user/code/finalProject/Programming3project/vsteg/stego.h
@@ -69,4 +57,12 @@ bitmap.h
 /home/user/code/finalProject/Programming3project/vsteg/bitmap.h
 stego.h
 /home/user/code/finalProject/Programming3project/vsteg/stego.h
+pthread.h
+-
+string.h
+-
+sys/types.h
+-
+unistd.h
+-
 

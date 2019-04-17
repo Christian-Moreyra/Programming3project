@@ -33,12 +33,15 @@ void *decode_thr_func(void *arg)
 
         sprintf(image, "img%06d.bmp", (data -> tid) + 1);
 
-	sprintf(text, "subtext%02d", (data -> tid));
-
+	sprintf(text, "subtext%02d.txt", (data -> tid));
+	
+	printf("image = %s, subtext = %s, Thread ID = %d\n", image, text, data -> tid);
 	printf("\nBefore Decode\n");
-        decode(image, text);
+	encode("subtext03","img000004.bmp","img000004.bmp");
+	printf("AFTER encode\n");
+        decode("img000004.bmp", "text.txt");
 	printf("\nAfter Decode\n");
-
+	
         pthread_exit(NULL);
 }
 
@@ -140,12 +143,12 @@ int main(int argc, char **argv)
         system(inputVideo);
 
 	printf("\n\nGETING NUMBER OF THREADS\n\n");
-/*	FILE *fp;
+	FILE *fp;
 
         fp = popen("find img* -type f | wc -l", "r");
 
         fscanf(fp, "%d", &NUM_THREADS);
-*/
+
 	NUM_THREADS = 1;
 
 	printf("\n\nNUM_THREADS = %d", NUM_THREADS);
@@ -166,12 +169,21 @@ int main(int argc, char **argv)
                 }
         }
 
-        /* block until all threads complete */
+        // block until all threads complete 
         for (i = 0; i < NUM_THREADS; ++i)
         {
                 pthread_join(thr[i], NULL);
         }
 	printf("\n\nJOINED ALL THREADS\n\n");
+     
+
+
+
+
+
+
+
+
 
 	//decode("eimg00001.bmp","decoded_text.txt");
 	//ffmpeg -r 30 -f image2 -s 640x359 -i img%04d.bmp -vcodec libx264 -crf 25  -pix_fmt yuv420p decoded_video.mp4
@@ -182,8 +194,8 @@ int main(int argc, char **argv)
     //Can be implemented in version 2 to make it more efficient
     //ffmpeg -i “concat:test.mp4|video2.avi” output_video.avi
 
-    system("rm img*");
-    system("rm subtext*");
+//    system("rm img*");
+//    system("rm subtext*");
 
     
     return EXIT_SUCCESS;
